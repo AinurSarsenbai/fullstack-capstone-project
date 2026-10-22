@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GiftLink | Share Happiness</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #171333, #443181);
+      color: white;
+      min-height: 100vh;
+    }
+    nav {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #e9baff;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    main {
+      text-align: center;
+      padding: 110px 20px;
+    }
+    h1 {
+      font-size: clamp(38px, 6vw, 72px);
+      margin-bottom: 20px;
+    }
+    h1 span { color: #e6a7ff; }
+    p {
+      font-size: 19px;
+      color: #ddd4f5;
+      max-width: 600px;
+      margin: 0 auto 35px;
+      line-height: 1.7;
+    }
+    .btn {
+      display: inline-block;
+      background: #d8a0ff;
+      color: #21133b;
+      padding: 17px 38px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      border: 0;
+      cursor: pointer;
+      font-size: 17px;
+    }
+    .btn:hover { background: #ffffff; }
+    .features {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px 8% 80px;
+    }
+    .card {
+      background: rgba(255,255,255,.09);
+      padding: 30px;
+      border-radius: 18px;
+      width: 270px;
+      text-align: center;
+    }
+    .card h3 { color: #e6a7ff; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">🎁 GiftLink</div>
+    <div>
+      <a href="#features">Features</a>
+      <a href="mailto:hello@giftlink.example">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <h1>Share Gifts.<br><span>Spread Happiness.</span></h1>
+    <p>
+      Welcome to GiftLink! Discover thoughtful gifts,
+      connect with people, and make every occasion special.
+    </p>
+    <a href="#features" class="btn">Get Started →</a>
+  </main>
+
+  <section class="features" id="features">
+    <div class="card">
+      <h3>🎁 Discover Gifts</h3>
+      <p>Find the perfect gift for every occasion.</p>
+    </div>
+    <div class="card">
+      <h3>💜 Share Joy</h3>
+      <p>Connect with friends and loved ones.</p>
+    </div>
+    <div class="card">
+      <h3>✨ Easy Experience</h3>
+      <p>Enjoy a simple and beautiful platform.</p>
+    </div>
+  </section>
+</body>
+</html>
